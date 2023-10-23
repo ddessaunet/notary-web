@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/**
+ * 	Propiedades de los elementos que hacen 
+ * 	a la apariencia del sitio.
+ * 
+ */
+/**
+ * Defino los tipo de letras a usar
+ * para evitar evitar que	
+ * 
+ */
+/*@font-face {
+    font-family: 'MonotypeCorsivaRegular';
+    src: url('../fonts/mtcorsva.eot');
+    src: local('☺'), url('../fonts/mtcorsva.eot') format('embedded-opentype'),
+			         url('../fonts/mtcorsva.woff') format('woff'),
+			         url('../fonts/mtcorsva.ttf') format('truetype'),
+			         url('../fonts/mtcorsva.svg#MonotypeCorsivaRegular') format('svg');
+}*/
+/*@font-face {
+    font-family: 'HelveticaLightRegular';
+    src: url('../fonts/helvetica-light.eot');
+    src: local('☺'), url('../fonts/helvetica-light.eot') format('embedded-opentype'),
+			         url('../fonts/helvetica-light.woff') format('woff'),
+			         url('../fonts/helvetica-light.ttf') format('truetype'),
+			         url('../fonts/helvetica-light.svg#HelveticaLightRegular') format('svg');
+}*/
+/*@font-face {
+    font-family: 'HelveticaNarrowOblique';
+    src: url('../fonts/helvetica-narrow-oblique.eot');
+    src: local('☺'), url('../fonts/helvetica-narrow-oblique.eot') format('embedded-opentype'),
+			         url('../fonts/helvetica-narrow-oblique.woff') format('woff'),
+			         url('../fonts/helvetica-narrow-oblique.ttf') format('truetype'),
+			         url('../fonts/helvetica-narrow-oblique.svg#HelveticaNarrowOblique') format('svg');
+}*/
+@font-face {
+  font-family: MonotypeCorsivaRegular;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/mtcorsva.eot");
+  src: url("../fonts/mtcorsva.eot?#iefix") format("embedded-opentype"), url("../fonts/mtcorsva.woff") format("woff"), url("../fonts/mtcorsva.ttf") format("truetype"), url("../fonts/mtcorsva.svg#MonotypeCorsivaRegular") format("svg"); }
+
+@font-face {
+  font-family: MyriadProRegular;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../fonts/myriadpro-regular.eot");
+  src: url("../fonts/myriadpro-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/myriadpro-regular.woff") format("woff"), url("../fonts/myriadpro-regular.ttf") format("truetype"), url("../fonts/myriadpro-regular.svg#MyriadProRegular") format("svg"); }
+
+@media all and (min-width: 15em) {
+  .t-wrapper > header {
+    background-color: #30242e;
+    background-image: url("../img/plumacabecera.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    color: white; }
+    .t-wrapper > header .t-nombre {
+      font-family: MonotypeCorsivaRegular; }
+      .t-wrapper > header .t-nombre h1 {
+        font-size: 6em;
+        font-weight: 500; }
+      .t-wrapper > header .t-nombre h2 {
+        font-size: 4.5em;
+        font-weight: 500; }
+    .t-wrapper > header .t-datos {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 1.3em; }
+      .t-wrapper > header .t-datos h3 {
+        font-weight: 500; }
+  .t-wrapper .t-nav-list {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    line-height: 2em;
+    font-weight: 500;
+    color: black; }
+    .t-wrapper .t-nav-list > li:first-child {
+      background-color: #e1fff2; }
+    .t-wrapper .t-nav-list > li:nth-child(2) {
+      background-color: #c4dbd1; }
+    .t-wrapper .t-nav-list > li:nth-child(3) {
+      background-color: #96aaa1; }
+    .t-wrapper .t-nav-list > li > a {
+      text-decoration: none;
+      text-align: center; }
+    .t-wrapper .t-nav-list > li > a:visited {
+      color: black; }
+  .t-wrapper .t-content {
+    background-color: #e1fff2;
+    background-image: url("../img/pluma.png");
+    background-repeat: no-repeat;
+    background-position: 100% 100%; }
+    .t-wrapper .t-content footer {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  .t-wrapper .t-title-section h6 {
+    font-family: MonotypeCorsivaRegular;
+    font-size: 4.9em;
+    font-weight: 500;
+    line-height: 40px;
+    color: #30242E; }
+  .t-wrapper .t-title-section .t-logo-content {
+    background-image: url("../img/plumita.png");
+    background-repeat: no-repeat;
+    background-size: contain; }
+  .t-wrapper .t-inicio-nav {
+    font-family: MyriadProRegular;
+    font-size: 1.4em;
+    font-weight: 600; }
+  .t-wrapper article {
+    font-family: MyriadProRegular;
+    font-weight: 500;
+    font-size: 1.6em; }
+    .t-wrapper article h3 {
+      font-size: 2em;
+      font-weight: 500;
+      font-family: MonotypeCorsivaRegular; }
+  .t-wrapper .t-footer-content > h1 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    font-weight: bold; }
+  .t-wrapper .t-footer-content > h3 {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.4em;
+    font-weight: 500;
+    font-style: italic; }
+  .t-wrapper .t-aside {
+    background-color: #30242e;
+    color: white; }
+    .t-wrapper .t-aside #datos-estudio h1 {
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 1.6em; }
+    .t-wrapper .t-aside #logo-estudio {
+      float: left;
+      background-image: url("../img/CRlogo.png");
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 60px;
+      height: 60px;
+      margin: 10px 15px 0 5px; }
+    .t-wrapper .t-aside #estudio-content h1 {
+      font-family: MonotypeCorsivaRegular;
+      font-size: 3.2em;
+      font-weight: 500; }
+    .t-wrapper .t-aside #estudio-content h2 {
+      font-family: MonotypeCorsivaRegular;
+      font-size: 2em;
+      font-weight: 500; }
+    .t-wrapper .t-aside #estudio-content ul {
+      list-style: initial;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 1.3em; }
+      .t-wrapper .t-aside #estudio-content ul > li {
+        margin-top: 15px; }
+    .t-wrapper .t-aside footer h3 {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 1.6em;
+      font-weight: 700;
+      font-style: italic;
+      text-align: right; }
+  .t-wrapper #contact-form *:focus {
+    outline: none; }
+  .t-wrapper #contact-form input:required, .t-wrapper #contact-form textarea:required, .t-wrapper #contact-form textarea:required:valid, .t-wrapper #contact-form textarea:required:invalid:focus {
+    background: white url(../img/required.png) no-repeat;
+    background-size: 3%;
+    background-position: right; }
+  .t-wrapper #contact-form input:required:valid, .t-wrapper #contact-form textarea:required:valid, .t-wrapper #contact-form textarea:required:valid:invalid:focus {
+    background: white url(../img/valid.png) no-repeat;
+    background-size: 6%;
+    background-position: right; }
+  .t-wrapper #contact-form input:required:invalid:focus, .t-wrapper #contact-form textarea:required:invalid:focus {
+    background: white url(../img/invalid.png) no-repeat;
+    background-size: 6%;
+    background-position: right; }
+  .t-wrapper #contact-form .error {
+    color: #30242e; }
+  .t-wrapper #contact-form .e-send {
+    font-family: MyriadProRegular;
+    font-size: 1.7em;
+    color: red;
+    display: block;
+    opacity: 0; }
+  .t-wrapper #contact-form .s-send {
+    font-family: MyriadProRegular;
+    font-size: 1.7em;
+    color: yellow;
+    display: block;
+    opacity: 0; }
+  .t-wrapper #contact-form input[type="submit"], .t-wrapper #contact-form textarea[type="submit"]:required, .t-wrapper #contact-form textarea[type="submit"]:required:invalid:focus {
+    background-color: #30242e; }
+  .t-wrapper #contact-form input[type="submit"]:active, .t-wrapper #contact-form textarea[type="submit"]:active:required {
+    background-color: #B1B1B1;
+    color: #30242e; } }
+@media all and (min-width: 64em) {
+  .t-wrapper .t-title-section h6 {
+    line-height: 55px; }
+  .t-wrapper article {
+    line-height: 35px; }
+    .t-wrapper article h3 {
+      margin: 0 0 0.2em 6em; }
+  .t-wrapper .t-aside header {
+    border-bottom: solid 1px; }
+  .t-wrapper .t-aside #datos-estudio h1 {
+    border-bottom: solid 1px; }
+  .t-wrapper .t-aside #logo-estudio {
+    margin: 10px 0 0 5px;
+    width: 100px;
+    height: 100px; } }

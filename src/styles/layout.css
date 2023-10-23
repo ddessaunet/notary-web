@@ -1,0 +1,217 @@
+/**
+ * 	Propiedades de la estructura general de la pagina.
+ * Ej: header, content, aside, footer.
+ * 
+ */
+@media all and (min-width: 15em) {
+  .l-wrapper {
+    margin: 0; }
+    .l-wrapper > header {
+      margin: 2em 0 0 0;
+      height: 227px; }
+    .l-wrapper .l-content-wrapper .nav ul {
+      margin: 0;
+      padding: 0; }
+    .l-wrapper .l-content-wrapper .l-content .l-title-section {
+      padding: 2em 0 1em 0;
+      margin-left: 2em;
+      margin-right: 2em;
+      border-bottom: solid 1px; }
+      .l-wrapper .l-content-wrapper .l-content .l-title-section .l-logo-content {
+        float: left;
+        width: 4.5em;
+        height: 7.7em; }
+      .l-wrapper .l-content-wrapper .l-content .l-title-section h6 {
+        margin: 0;
+        padding-top: 0.3em; }
+    .l-wrapper .l-content-wrapper .l-content .l-menu {
+      margin-bottom: 25px; }
+      .l-wrapper .l-content-wrapper .l-content .l-menu .l-inicio-nav {
+        margin: 0 0 0 0;
+        padding: 5px 0 0 0; }
+        .l-wrapper .l-content-wrapper .l-content .l-menu .l-inicio-nav > li:nth-child(2n) {
+          text-align: right;
+          margin-right: 40px; }
+        .l-wrapper .l-content-wrapper .l-content .l-menu .l-inicio-nav > li:nth-child(2n+1) {
+          margin-left: 15px;
+          float: left; }
+    .l-wrapper .l-content-wrapper .l-content footer h3 {
+      margin-bottom: 0; }
+    .l-wrapper .l-content-wrapper .l-aside #datos-estudio {
+      border-bottom: none; }
+      .l-wrapper .l-content-wrapper .l-aside #datos-estudio h1 {
+        margin-top: 0;
+        padding-top: 10px; }
+    .l-wrapper .l-content-wrapper #contact-form {
+      margin-left: 8%;
+      margin-right: 4%; }
+      .l-wrapper .l-content-wrapper #contact-form .l-fieds {
+        float: none;
+        padding-top: 25px; }
+        .l-wrapper .l-content-wrapper #contact-form .l-fieds input {
+          margin-bottom: 20px;
+          height: 25px;
+          width: 250px;
+          font-size: 1.6em;
+          font-family: MyriadProRegular; }
+      .l-wrapper .l-content-wrapper #contact-form .l-message {
+        margin-left: 0; }
+        .l-wrapper .l-content-wrapper #contact-form .l-message textarea {
+          height: 270px;
+          width: 92%;
+          resize: none;
+          font-size: 1.6em;
+          font-family: MyriadProRegular; }
+        .l-wrapper .l-content-wrapper #contact-form .l-message input {
+          float: right;
+          margin-top: 5px;
+          margin-right: 8%;
+          border: none;
+          color: white;
+          height: 22px; } }
+@media all and (min-width: 64em) {
+  .l-wrapper {
+    margin-left: 20px;
+    margin-right: 20px; }
+    .l-wrapper > header {
+      margin: 2em 0 0 0;
+      height: 227px; }
+      .l-wrapper > header .l-nombre {
+        float: left;
+        width: 75%; }
+        .l-wrapper > header .l-nombre h1 {
+          padding-left: 11%;
+          margin: 6% 0 0 0; }
+        .l-wrapper > header .l-nombre h2 {
+          padding-left: 11%;
+          margin: 0 0 0 0; }
+      .l-wrapper > header .l-datos {
+        float: right;
+        padding: 7% 2% 0 0;
+        width: 25%; }
+        .l-wrapper > header .l-datos h3 {
+          text-align: right;
+          padding-right: 5%;
+          margin: 0 0 0 0; }
+        .l-wrapper > header .l-datos .l-datos-b {
+          margin: 17px 0 0 0; }
+    .l-wrapper .l-content-wrapper {
+      margin: 10px 0 0 0; }
+      .l-wrapper .l-content-wrapper .nav {
+        float: left;
+        margin: 0;
+        padding: 0;
+        width: 30px; }
+        .l-wrapper .l-content-wrapper .nav .l-nav-list {
+          margin: 0;
+          padding: 0; }
+          .l-wrapper .l-content-wrapper .nav .l-nav-list > li {
+            height: 150px; }
+            .l-wrapper .l-content-wrapper .nav .l-nav-list > li > a {
+              padding: 0;
+              margin: 0;
+              width: 7em;
+              display: block;
+              -webkit-transform: rotate(-90deg);
+              -moz-transform: rotate(-90deg);
+              -ms-transform: rotate(-90deg);
+              -o-transform: rotate(-90deg);
+              transform: rotate(-90deg);
+              -webkit-transform-origin: 60px 60px;
+              -moz-transform-origin: 60px 60px;
+              -ms-transform-origin: 60px 60px;
+              -o-transform-origin: 60px 60px;
+              transform-origin: 60px 60px; }
+      .l-wrapper .l-content-wrapper .l-content {
+        float: left;
+        margin: 0 0 0 0;
+        width: 69%;
+        height: auto;
+        min-height: 585px; }
+        .l-wrapper .l-content-wrapper .l-content .l-title-section {
+          padding: 5% 0 0 0;
+          margin: 0 0 3% 9%;
+          width: 85%;
+          border-bottom: solid 1px; }
+          .l-wrapper .l-content-wrapper .l-content .l-title-section .l-logo-content {
+            float: left;
+            width: 4.5em;
+            height: 7.7em; }
+          .l-wrapper .l-content-wrapper .l-content .l-title-section h6 {
+            margin: 0;
+            height: 87px; }
+        .l-wrapper .l-content-wrapper .l-content .l-menu {
+          float: left;
+          width: 144px;
+          border-right: solid 1px; }
+          .l-wrapper .l-content-wrapper .l-content .l-menu .l-inicio-nav {
+            margin: 0;
+            padding: 0 0 0 17px; }
+            .l-wrapper .l-content-wrapper .l-content .l-menu .l-inicio-nav > li {
+              height: 41px; }
+            .l-wrapper .l-content-wrapper .l-content .l-menu .l-inicio-nav > li:nth-child(2n) {
+              text-align: left;
+              margin-right: 40px; }
+            .l-wrapper .l-content-wrapper .l-content .l-menu .l-inicio-nav > li:nth-child(2n+1) {
+              margin-left: 0;
+              float: none; }
+            .l-wrapper .l-content-wrapper .l-content .l-menu .l-inicio-nav a {
+              display: block;
+              text-decoration: none;
+              color: black; }
+            .l-wrapper .l-content-wrapper .l-content .l-menu .l-inicio-nav a:visited {
+              text-decoration: none;
+              color: black; }
+            .l-wrapper .l-content-wrapper .l-content .l-menu .l-inicio-nav > li:last-child {
+              height: 100px; }
+        .l-wrapper .l-content-wrapper .l-content article > p {
+          margin: 0 48px 0 160px; }
+        .l-wrapper .l-content-wrapper .l-content .l-footer-content {
+          padding: 10% 0 5% 0; }
+          .l-wrapper .l-content-wrapper .l-content .l-footer-content > h1 {
+            text-align: right;
+            margin: 0 48px 0 0; }
+          .l-wrapper .l-content-wrapper .l-content .l-footer-content > h3 {
+            text-align: right;
+            margin: 0 48px 0 0; }
+        .l-wrapper .l-content-wrapper .l-content #contact-form .l-fieds {
+          float: left; }
+        .l-wrapper .l-content-wrapper .l-content #contact-form .l-message {
+          margin-left: 56%; }
+    .l-wrapper .l-aside {
+      float: right;
+      margin: 0;
+      width: 27%; }
+      .l-wrapper .l-aside header {
+        padding-bottom: 67px;
+        width: 90%;
+        margin-left: 5%; }
+      .l-wrapper .l-aside #datos-estudio {
+        margin: 0;
+        padding: 0;
+        text-align: right; }
+        .l-wrapper .l-aside #datos-estudio h1 {
+          padding: 20px 3px 3px 0;
+          margin-left: 125px;
+          margin-right: 12px; }
+      .l-wrapper .l-aside hr {
+        margin: 60px 0px 0 16px; }
+      .l-wrapper .l-aside #estudio-content {
+        margin: 20px 0 0 0; }
+        .l-wrapper .l-aside #estudio-content h1 {
+          margin: 16px 0 0 16px; }
+        .l-wrapper .l-aside #estudio-content h2 {
+          margin-left: 16px; }
+        .l-wrapper .l-aside #estudio-content .l-derecho {
+          padding: 5px 0 0 30px; }
+      .l-wrapper .l-aside footer {
+        padding: 3.5em 2em 2em 0; }
+        .l-wrapper .l-aside footer h3 {
+          margin: 0 0 0 0; } }
+@media all and (min-width: 73em) {
+  .l-wrapper {
+    margin-right: 9%;
+    margin-left: 9%; } }
+@media all and (min-width: 103.1em) {
+  .l-wrapper {
+    width: 1400px; } }

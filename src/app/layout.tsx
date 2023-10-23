@@ -1,4 +1,9 @@
-import './globals.css'
+// import './globals.css'
+import '../styles/base.css'
+import '../styles/layout.css'
+import '../styles/module.css'
+import '../styles/state.css'
+import '../styles/theme.css'
 
 export default function RootLayout({
   children,
