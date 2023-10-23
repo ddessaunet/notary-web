@@ -100,7 +100,7 @@ function Home() {
                             <h1>Dr. Emilio David Cucarese</h1>
                             <h2>Abogado U.B.A - Socio</h2>
                             <div>
-                                <ul class="l-derecho">
+                                <ul className="l-derecho">
                                     <li>CIVIL</li>
                                     <li>COMERCIAL</li>
                                     <li>LABORAL</li>
