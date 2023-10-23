@@ -1,7 +1,6 @@
 import Image from 'next/image'
 import { Inter } from '@next/font/google'
 import styles from './page.module.scss'
-import { appWithTranslation } from 'next-i18next';
 
 const inter = Inter({ subsets: ['latin'] })
 
