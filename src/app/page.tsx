@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 function Home() {
   return (
-    <main className={styles.main}>
+    <main>
         <div className="l-wrapper t-wrapper">
             <header className="m-shadow">
                 <div className="l-nombre t-nombre">
