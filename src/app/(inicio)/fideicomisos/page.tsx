@@ -4,8 +4,8 @@ export default function Fideicomisos() {
             <h3>Fideicomisos</h3>
 
             <p>
-                Un fideicomiso (del lat&iacute;n fideicommissum, a su vez de fides, "fe", y commissus,
-                "comisi&oacute;n")
+                {/* eslint-disable-next-line react/no-unescaped-entities */}
+                Un fideicomiso (del lat&iacute;n fideicommissum, a su vez de fides, "fe", y commissus, "comisi&oacute;n")
 
                 es un contrato o convenio en virtud del cual una persona, llamada fideicomitente o
 
