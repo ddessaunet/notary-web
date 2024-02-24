@@ -2,7 +2,7 @@ export default function Head() {
   return (
     <>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta httpEquiv="Content-Type" content="text/html; charset=UTF-8"/>
         <title>Escribania Lepez</title>
         <meta name="description" content="Escribania Lepez. Actas, Hipotecas, Sociedades, Tramites Urgentes."/>
         <meta name="keywords" content="Escribania Lepez, Emilio David Cucarese, Maria Florencia Lepez Matinati, Cucarese, Lepez, Matinati, Compraventa, Poderes, Fideicomisos, Donaciones, Juridico Notarial, Actas, Hipotecas, Sociedades, Tramites, Urgentes"/>
