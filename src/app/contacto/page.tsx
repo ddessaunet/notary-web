@@ -1,7 +1,7 @@
 export default function Contato() {
     return (
         <div id="contact-form">
-            <form name="contact" id="contact" method="POST" noValidate="novalidate">
+            <form name="contact" id="contact" method="POST" noValidate>
                 <p>(*) Campos obligatorios</p>
                 <div className="l-fieds">
                     <label>Nombre*</label><br/>
@@ -21,9 +21,8 @@ export default function Contato() {
                 </div>
                 <div className="l-message">
                     <label>Mensaje*</label><br/>
-                    <textarea id="message" name="message"
-                              pattern="[A-Za-z0-9]{6}" placeholder="Su consulta no molesta"
-                              required></textarea><br/>
+                    <textarea id="message" name="message" placeholder="Su consulta no molesta" required></textarea>
+                    <br/>
                     <div className="error"></div>
                     <div className="e-send">Por favor intente nuevamente.</div>
                     <div className="s-send">Mensaje enviado con exito.</div>
