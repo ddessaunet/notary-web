@@ -1,4 +1,4 @@
-import '../styles/style.scss'
+import '../styles/main.scss'
 
 import AsideInformation from "@/core/components/AsideInformation";
 import Header from "@/core/components/Header";
