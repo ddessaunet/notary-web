@@ -1,0 +1,79 @@
+/**
+ * 	Propiedades de todos aquellos elementos que pueden ser reutilizados,
+ * como tablas, botones, etc.
+ * 
+ */
+
+// @import 'bourbon/bourbon';
+// @import 'contextvariables';
+
+@media all and (min-width: $bp-small) {
+
+	.m-shadow {
+		@include box-shadow(10px 10px 37px 0px rgba(0,0,0,0.75));
+	}
+	
+	.m-tabla {
+	 	table {
+	 		font-family: $text-font;
+	 		font-size: 1.6em;
+	 		margin-left: 10%;
+	 		margin-bottom: 2%;
+
+	 		td {
+	 			width: 280px;
+	 			padding-left: 10px;
+	 			border-left: solid 5px $pri-color;
+	 		}
+
+	 	}
+	}
+	
+	.ddessarrollos {
+
+		float: right;
+		margin-top: 25px;
+
+		.dd-text {
+
+			font-family: $title-font;
+			font-size: 3.3em;
+			// float: right;
+			color: #30242E;
+			
+			h6 {
+				margin: 0;
+			}
+		}
+
+		.dd-logo {
+			float: right;
+			background: url('../img/min_ddessarrollos.png') no-repeat;
+			background-size: contain;
+			height: 40px;
+			width: 140px;
+
+			a {
+				display: block;
+				height: inherit;
+				width: inherit;
+			}
+		}
+	}
+	
+}
+
+@media all and (min-width: $bp-xl) {
+
+	.m-tabla {
+		table {
+
+			td {
+				width: 400px;
+			}
+
+		}
+	}
+
+
+}

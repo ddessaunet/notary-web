@@ -1,0 +1,27 @@
+/**
+ * 	Propiedades de todos quellos elementos que pueden presentar
+ * distintos estados.
+ * 
+ */
+
+.s-article[data-state=enabled] {
+	display: inline;
+	// opacity: 1;
+	// -webkit-transition: opacity 1s ease;
+	// height: auto;
+}
+
+.s-article[data-state=disabled] {
+	display: none;
+ 	// height: 0;
+ 	// -webkit-transition: opacity 1s ease;
+ 	// opacity: 0;
+}
+
+.s-section[data-state=enabled] {
+ 	display:inline;
+ }
+
+.s-section[data-state=disabled] {
+ 	display:none;
+}
