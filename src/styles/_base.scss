@@ -1,0 +1,61 @@
+/* apply a natural box layout model to all elements */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ }
+ 
+// @import 'normalize';
+// @import 'contextvariables';
+
+
+@media all and (min-width: $bp-small) {
+
+	html {
+			font-size: 6px;
+	}
+
+	body {
+		background: $bg-color;
+	}
+
+	ul {
+		list-style: none;
+ 	}
+
+ 	a {
+ 		text-decoration: none;
+ 		color: black;
+ 	}
+
+ 	a:visited {
+ 		text-decoration: none;
+ 		color: black;
+ 	}
+
+	hr {
+			border: none;
+	}
+
+	label {
+		font-family: $text-font;
+		font-size: 1.6em;
+	}
+}
+
+@media all and (min-width: $bp-med) {
+	
+}
+
+@media all and (min-width: $bp-large) {
+	html {
+		font-size: 9px;
+	}
+}
+	
+@media all and (min-width: $bp-xl) {
+	html {
+		font-size: 10px;
+	}
+}
+

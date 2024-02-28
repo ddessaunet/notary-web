@@ -1,0 +1,37 @@
+/**
+ * Defino los tipo de letras a usar
+ * para evitar evitar que	
+ * 
+ */
+
+//@font-face {
+//    font-family: 'MonotypeCorsivaRegular';
+//    src: url('../fonts/mtcorsva.eot');
+//    src: local('☺'), url('../fonts/mtcorsva.eot') format('embedded-opentype'),
+//			         url('../fonts/mtcorsva.woff') format('woff'),
+//			         url('../fonts/mtcorsva.ttf') format('truetype'),
+//			         url('../fonts/mtcorsva.svg#MonotypeCorsivaRegular') format('svg');
+//}
+//
+//@font-face {
+//    font-family: 'HelveticaLightRegular';
+//    src: url('../fonts/helvetica-light.eot');
+//    src: local('☺'), url('../fonts/helvetica-light.eot') format('embedded-opentype'),
+//			         url('../fonts/helvetica-light.woff') format('woff'),
+//			         url('../fonts/helvetica-light.ttf') format('truetype'),
+//			         url('../fonts/helvetica-light.svg#HelveticaLightRegular') format('svg');
+//}
+//
+//@font-face {
+//    font-family: 'HelveticaNarrowOblique';
+//    src: url('../fonts/helvetica-narrow-oblique.eot');
+//    src: local('☺'), url('../fonts/helvetica-narrow-oblique.eot') format('embedded-opentype'),
+//			         url('../fonts/helvetica-narrow-oblique.woff') format('woff'),
+//			         url('../fonts/helvetica-narrow-oblique.ttf') format('truetype'),
+//			         url('../fonts/helvetica-narrow-oblique.svg#HelveticaNarrowOblique') format('svg');
+//}
+
+@import 'bourbon/bourbon';
+
+@include font-face(MonotypeCorsivaRegular, '../../../fonts/mtcorsva');
+@include font-face(MyriadProRegular, '../../../fonts/myriadpro-regular');

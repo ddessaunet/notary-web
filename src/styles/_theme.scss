@@ -1,0 +1,315 @@
+/**
+ * 	Propiedades de los elementos que hacen 
+ * 	a la apariencia del sitio.
+ * 
+ */
+
+// @import 'bourbon/bourbon';
+// @import 'fonts';
+// @import 'contextvariables';
+
+
+@media all and (min-width: $bp-small) {
+	.t-wrapper {
+		
+		> header {
+			background-color: $pri-color;
+			background-image: url('../img/plumacabecera.png');
+			background-repeat: no-repeat;
+			background-size: auto;
+			color: white;
+				 	
+			.t-nombre {
+				font-family: $title-font; 
+				
+				h1 {
+					font-size: 6em; // 60px;
+					font-weight: 500;
+				}
+			
+				h2 {
+					font-size: 4.5em; // 45px;
+					font-weight: 500;
+				}
+			}
+			
+			.t-datos {
+				font-family: $helvetica;
+				font-size: 1.3em; // 13px;
+						
+				h3 {
+					font-weight: 500;
+				}
+			}
+		}
+		
+		
+		.t-nav-list {
+			font-family: $helvetica;
+			font-size: 1.4em; // 14px;
+			line-height: 2em;
+			font-weight: 500;
+			color: black;
+			
+			> li:first-child {
+				background-color: $tab1-color;
+			}
+			
+			> li:nth-child(2) {
+				background-color: $tab2-color;
+			}
+			
+			> li:nth-child(3) {
+				background-color: $tab3-color;
+			}
+
+			> li > a {
+				text-decoration: none;
+				text-align: center;
+			}
+
+			> li > a:visited {
+				color: black;
+			}
+		}
+		
+		.t-content {
+			background-color: $tab1-color;
+			background-image: url('../img/pluma.png');
+			background-repeat: no-repeat;
+			background-position: 100% 100%;
+			
+			footer {
+				font-family: $helvetica;
+			}
+		}
+		
+		.t-title-section {
+
+			h6 {
+				font-family: $title-font;
+				font-size: 4.9em; // 49px;
+				font-weight: 500;
+				line-height: 40px;
+				color: #30242E;
+			}
+			
+			.t-logo-content {
+				background-image: url('../img/plumita.png');
+				background-repeat: no-repeat;
+				background-size: contain;
+			}
+		}
+		
+		.t-inicio-nav {
+			font-family: $text-font;
+			font-size: 1.4em; // 14px;
+			font-weight: 600;
+		}
+		
+		article {
+			font-family: $text-font;
+			font-weight: 500;
+			// line-height: 35px;
+			font-size: 1.6em;
+
+			h3 {
+				font-size: 2em;
+				font-weight: 500;
+				font-family: $title-font;
+			}
+		}
+		
+		.t-footer-content {
+			
+			> h1 { 
+				font-family: $helvetica;
+				font-size: 1.4em; // 14px;
+				font-weight: 500;
+				font-weight: bold;
+			}
+			
+			> h3 {
+				font-family: $helvetica;
+				font-size: 1.4em; // 14px;
+				font-weight: 500;
+				font-style: italic;
+			}
+		}
+		
+		.t-aside {
+			background-color: $pri-color;
+			color: white;
+			
+			#datos-estudio {
+
+				h1 {
+					font-family: Arial, Helvetica, sans-serif;
+					font-size: 1.6em; // 16px;
+				}
+			}
+
+			#logo-estudio {
+				float: left;
+				background-image: url('../img/CRlogo.png');
+				background-size: contain;
+				background-repeat: no-repeat;
+				@include size(60px);
+				margin: 10px 15px 0 5px;
+
+			}
+
+			#estudio-content {
+
+				h1 {
+					font-family: $title-font;
+					font-size: 3.2em; // 32px;
+					font-weight: 500;
+				}
+
+				h2 {
+					font-family: $title-font;
+					font-size: 2em; // 20px;
+					font-weight: 500;
+				}
+
+				ul {
+					list-style: initial;
+					font-family: $helvetica;
+					font-size: 1.3em; // 13px;
+
+					> li {
+						margin-top: 15px;
+					}
+				}
+			}
+
+			footer {
+
+				h3 {
+					font-family: $helvetica;
+					font-size: 1.6em; // 16px;
+					font-weight: 700;
+					font-style: italic;
+					text-align: right;
+				}
+			}
+
+		}
+
+		#contact-form {
+
+			*:focus {
+				outline: none;
+			}
+
+			input:required {
+				background: #fff url(../img/required.png) no-repeat;
+				background-size: 3%;
+				background-position: right;
+			}
+
+			textarea:required {
+				//@extend input;
+				background: #fff url(../img/required.png) no-repeat;
+				background-size: 3%;
+				background-position: right;
+			}
+
+			input:required:valid {
+				background: #fff url(../img/valid.png) no-repeat;
+    			background-size: 6%;
+    			background-position: right;
+			}
+
+			textarea:required:valid {
+				//@extend input;
+				background: #fff url(../img/valid.png) no-repeat;
+				background-size: 6%;
+				background-position: right;
+			}
+
+			input:required:invalid:focus {
+				background: #fff url(../img/invalid.png) no-repeat;
+    			background-size: 6%;
+    			background-position: right;
+			}
+
+			textarea:required:invalid:focus {
+				//@extend input;
+				background: #fff url(../img/invalid.png) no-repeat;
+				background-size: 6%;
+				background-position: right;
+			}
+
+			.error {
+				color: $pri-color;
+			}
+
+			.e-send {
+				font-family: $text-font;
+				font-size: 1.7em;
+				color: red;
+				display: block;
+				opacity: 0;
+			}
+
+			.s-send {
+				font-family: $text-font;
+				font-size: 1.7em;
+				color: yellow;
+				display:block;
+				opacity: 0;
+			}
+
+			input[type="submit"] {
+				background-color: $pri-color;
+			}
+
+			input[type="submit"]:active {
+				background-color: #B1B1B1;
+				color: $pri-color;
+			}
+		}
+	}
+}
+
+@media all and (min-width: $bp-large) {
+
+	.t-wrapper {
+
+		.t-title-section {
+
+			h6 {
+				line-height: 55px;
+			}
+		}
+
+		article {
+			line-height: 35px;
+
+			h3 {
+				margin: 0 0 0.2em 6em;
+			}
+		}
+
+		.t-aside {
+
+			header {
+				border-bottom: solid 1px;
+			}
+
+			#datos-estudio {
+				h1 {
+					border-bottom: solid 1px;
+				}
+			}
+
+			#logo-estudio {
+				margin: 10px 0 0 5px;
+				@include size(100px);
+			}
+		}
+	}
+
+}

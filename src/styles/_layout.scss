@@ -1,0 +1,386 @@
+/**
+ * 	Propiedades de la estructura general de la pagina.
+ * Ej: header, content, aside, footer.
+ * 
+ */
+// @import 'bourbon/bourbon';
+// @import 'contextvariables';
+
+
+@media all and (min-width: $bp-small) {
+	.l-wrapper {
+		margin: 0;
+
+		> header {
+			margin: 2em 0 0 0;
+			height: 227px;
+		}
+
+		.l-content-wrapper {
+
+			.nav {
+
+				ul {
+					margin: 0;
+					padding: 0;
+				}
+			}
+
+			.l-content {
+
+				.l-title-section {
+					padding: 2em 0 1em 0;
+					margin-left: 2em;
+					margin-right: 2em;
+					border-bottom: solid 1px;
+
+					.l-logo-content {
+						float: left;
+						@include size(4.5em 7.7em);
+					}
+
+					h6 {
+						margin: 0;
+						padding-top: 0.3em;
+					}
+				}
+
+				.l-menu {
+					margin-bottom: 25px;
+
+					.l-inicio-nav {
+						margin: 0 0 0 0;
+						padding: 5px 0 0 0;
+
+						> li:nth-child(2n) {
+							text-align: right;
+							margin-right: 40px;
+						}
+
+						> li:nth-child(2n+1) {
+							margin-left: 15px;
+							float: left;
+						}
+						
+					}
+
+				}
+
+				footer {
+					h3 {
+						margin-bottom: 0;
+					}
+				}
+			}
+
+			.l-aside {
+
+				#datos-estudio {
+					border-bottom: none;
+
+					h1 {
+						margin-top: 0;
+						padding-top: 10px;
+					}
+
+
+
+				}
+
+			}
+
+			#contact-form {
+				margin-left: 8%;
+				margin-right: 4%;
+
+				.l-fieds {
+					float: none;
+					padding-top: 25px;
+					
+					input {
+						margin-bottom: 20px;
+						height: 25px;
+						width: 250px;
+						font-size: 1.6em;
+						font-family: $text-font;
+					}
+
+				}
+
+				.l-message {
+					margin-left: 0;
+
+					textarea {
+						height: 270px;
+						width: 92%;
+						resize: none;
+						font-size: 1.6em;
+						font-family: $text-font;
+					}
+
+					input {
+						float: right;
+						margin-top: 5px;
+						margin-right: 8%;
+						border: none;
+						color: white;
+						height: 22px;
+					}
+				}
+			}
+
+
+		}
+	}
+
+}
+
+@media all and (min-width: $bp-large) {
+	.l-wrapper {
+		margin-left: 20px;
+		margin-right: 20px;
+		
+		> header {
+			margin: 2em 0 0 0;
+			height: 227px;
+			
+			.l-nombre {
+				float: left;
+				width:75%;
+				
+				h1 {
+					padding-left: 11%;
+					margin: 6% 0 0 0;
+				}
+				
+				h2 {
+					padding-left: 11%;
+					margin: 0 0 0 0;
+				}
+			}
+			
+			.l-datos {
+				float:right;
+				padding: 7% 2% 0 0;
+				width: 25%;
+				
+				h3 {
+					text-align: right;
+					padding-right: 5%;
+					margin: 0 0 0 0;
+				}
+				
+				.l-datos-b {
+					margin: 17px 0 0 0;
+				}
+			
+			}
+		}
+		
+		.l-content-wrapper {
+			margin: 10px 0 0 0;	
+		
+			.nav {
+				float: left;
+				margin: 0;
+				padding: 0;
+				width: 30px; // Optional: 2%;
+
+				.l-nav-list {
+					
+					margin: 0;
+					padding: 0;
+					// width: 30px;
+
+					> li {
+
+						height: 150px;
+
+						> a {
+							padding: 0;
+							margin: 0;
+							width: 7em;
+							display: block;
+							@include transform(rotate(-90deg));
+							@include transform-origin(60px 60px);
+						}
+					}
+
+				}
+			}
+				
+			.l-content {
+				float: left;
+				// margin: 0 0 0 31px;
+				margin: 0 0 0 0;
+				@include size(69% auto);
+				min-height: 585px;
+				
+				.l-title-section {
+					padding: 5% 0 0 0;
+					margin: 0 0 3% 9%;
+					width: 85%;
+					border-bottom: solid 1px;
+
+					.l-logo-content {
+						float: left;
+						@include size(4.5em 7.7em);
+						// margin: 0 0 0 100px;
+					}
+					
+					h6 {
+						margin: 0;
+						height: 87px;
+					}
+				}
+				
+				.l-menu {
+					float: left;
+					width: 144px;
+					border-right: solid 1px;
+
+
+					.l-inicio-nav {
+						margin: 0;
+						padding: 0 0 0 17px;
+
+
+						> li {
+							height: 41px;
+						}
+
+						> li:nth-child(2n) {
+							text-align: left;
+							margin-right: 40px;
+						}
+
+						> li:nth-child(2n+1) {
+							margin-left: 0;
+							float: none;
+						}
+
+						a {
+							display: block;
+							text-decoration: none;
+							color: black;
+						}
+
+						a:visited {
+							text-decoration: none;
+							color: black;
+						}
+
+						> li:last-child {
+							height: 100px;
+						}
+
+					}
+				}
+
+
+				
+				article {
+
+					> p {
+						margin: 0 48px 0 160px;
+					}
+				}
+				
+				.l-footer-content {
+					padding: 10% 0 5% 0;
+					
+					> h1 {
+						text-align: right;
+						margin: 0 48px 0 0;
+					}
+					
+					> h3 {
+						text-align: right;
+						margin: 0 48px 0 0;
+					}
+				}
+
+				#contact-form {
+					.l-fieds {
+						float: left;
+					}
+
+					.l-message {
+						margin-left: 56%;
+					}
+				}
+
+
+			}
+		}
+		
+		.l-aside {
+			float: right;
+			margin: 0;
+			width: 27%;
+			
+			header {
+				padding-bottom: 67px;
+				width: 90%;
+				margin-left: 5%;
+
+			}
+
+			#datos-estudio {
+				margin: 0;
+				padding: 0;
+				text-align: right;
+
+				h1{
+					padding: 20px 3px 3px 0;
+					margin-left: 125px;
+					margin-right: 12px;
+				}
+			}
+
+			hr {
+				margin: 60px 0px 0 16px;
+			}
+
+			#estudio-content {
+				margin: 20px 0 0 0;
+
+				h1 {
+					margin: 16px 0 0 16px;
+				}
+
+				h2 {
+					margin-left: 16px;
+				}
+
+				.l-derecho {
+					padding: 5px 0 0 30px;
+				}
+			}
+			footer {
+				padding: 3.5em 2em 2em 0;
+
+				h3 {
+					margin: 0 0 0 0;
+				}
+			}
+		}
+	}
+}
+
+@media all and (min-width: $bp-xl) {
+
+	.l-wrapper {
+		margin-right: 9%;
+		margin-left: 9%;
+	}
+
+}
+
+@media all and (min-width: $bp-xl-1) {
+
+	.l-wrapper {
+		width: 1400px;
+	}
+
+}
